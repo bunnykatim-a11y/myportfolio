@@ -15,9 +15,8 @@ export const personalInfo = {
   role: 'Software Engineer & AI Enthusiast',
   eyebrow: "HELLO, I'M",
   email: 'bunny.kati.m@gmail.com',
-  github: 'https://github.com/bunny',
-  linkedin: 'https://linkedin.com',
-  instagram: 'https://instagram.com',
+  github: 'https://github.com/bunnykatim-a11y',
+  linkedin: 'https://www.linkedin.com/in/bunny-kati-6933162a3/',
   tagline: {
     before: 'I build systems that',
     phrases: [

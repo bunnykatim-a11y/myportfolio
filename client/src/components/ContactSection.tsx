@@ -13,7 +13,7 @@ import {
   ArrowUpRight,
   Loader2,
 } from 'lucide-react'
-import { GithubIcon, LinkedinIcon, InstagramIcon } from './SocialIcons'
+import { GithubIcon, LinkedinIcon } from './SocialIcons'
 
 // EmailJS Vite Environment Configuration with safe fallbacks
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || '0509'
@@ -223,18 +223,6 @@ export const ContactSection: React.FC = () => {
                 >
                   <LinkedinIcon className="w-4 h-4" />
                   <span>LinkedIn</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
-                </a>
-
-                <a
-                  href={personalInfo.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onMouseEnter={() => soundManager.playHover()}
-                  className="px-5 py-3 rounded-full border border-[rgba(255,244,224,0.14)] bg-[#0d1b2a]/60 hover:border-[#ff6b5e] hover:text-[#ff6b5e] text-[#fff4e0] font-mono text-xs uppercase tracking-wider transition-all flex items-center gap-2"
-                >
-                  <InstagramIcon className="w-4 h-4" />
-                  <span>Instagram</span>
                   <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
                 </a>
               </div>

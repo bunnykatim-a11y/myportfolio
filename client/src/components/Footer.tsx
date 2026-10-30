@@ -1,7 +1,7 @@
 import React from 'react'
 import { soundManager } from '../utils/sound'
 import { ArrowUp } from 'lucide-react'
-import { GithubIcon, LinkedinIcon, InstagramIcon } from './SocialIcons'
+import { GithubIcon, LinkedinIcon } from './SocialIcons'
 import { personalInfo } from '../data/portfolioData'
 
 export const Footer: React.FC = () => {
@@ -90,17 +90,6 @@ export const Footer: React.FC = () => {
               className="w-10 h-10 rounded-full border border-[rgba(255,244,224,0.12)] bg-[#0d1b2a]/60 hover:text-[#ffb347] hover:border-[#ffb347] transition-all flex items-center justify-center text-[#fff4e0]/80"
             >
               <LinkedinIcon className="w-4 h-4" />
-            </a>
-
-            <a
-              href={personalInfo.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram profile"
-              onMouseEnter={() => soundManager.playHover()}
-              className="w-10 h-10 rounded-full border border-[rgba(255,244,224,0.12)] bg-[#0d1b2a]/60 hover:text-[#ff6b5e] hover:border-[#ff6b5e] transition-all flex items-center justify-center text-[#fff4e0]/80"
-            >
-              <InstagramIcon className="w-4 h-4" />
             </a>
 
             <button
