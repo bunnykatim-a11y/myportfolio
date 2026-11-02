@@ -5,7 +5,7 @@ import { soundManager } from '../utils/sound'
 // Selected key skills for the 3D Sphere cloud
 const SPHERE_SKILLS: { name: string; category: string; color: string; glyph: string }[] = [
   { name: 'React 19', category: 'mern', color: '#ffb347', glyph: '✦' },
-  { name: 'TypeScript', category: 'mern', color: '#ffb347', glyph: '✦' },
+  { name: 'REST API', category: 'mern', color: '#ffb347', glyph: '✦' },
   { name: 'Node.js', category: 'mern', color: '#ffb347', glyph: '✦' },
   { name: 'Express.js', category: 'mern', color: '#ffb347', glyph: '✦' },
   { name: 'MongoDB', category: 'mern', color: '#ffb347', glyph: '✦' },
@@ -30,7 +30,7 @@ const SPHERE_SKILLS: { name: string; category: string; color: string; glyph: str
   { name: 'Human-in-the-Loop', category: 'advanced-genai', color: '#4fd1c5', glyph: '▲' },
   { name: 'RAG Evaluation', category: 'ai-eng', color: '#ffaba2', glyph: '◆' },
   { name: 'LangSmith', category: 'ai-eng', color: '#ffaba2', glyph: '◆' },
-  { name: 'Langfuse', category: 'ai-eng', color: '#ffaba2', glyph: '◆' },
+  { name: 'REST API', category: 'ai-eng', color: '#ffaba2', glyph: '◆' },
   { name: 'Guardrails', category: 'ai-eng', color: '#ffaba2', glyph: '◆' },
   { name: 'Docker', category: 'devops', color: '#fff4e0', glyph: '☁' },
   { name: 'CI/CD Actions', category: 'devops', color: '#fff4e0', glyph: '☁' },
@@ -235,7 +235,7 @@ export const StackSection: React.FC = () => {
 
                 return (
                   <div
-                    key={point.name}
+                    key={`${point.name}-${point.category}`}
                     onClick={(e) => {
                       e.stopPropagation()
                       soundManager.playClick()

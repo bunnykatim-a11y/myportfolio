@@ -12,7 +12,7 @@ export const ServicesSection: React.FC = () => {
       description:
         'Modern, responsive websites with thoughtful design and smooth interactions.',
       deliverables: [
-        'Single Page Applications (React / TypeScript)',
+        'Single Page Applications (React / REST API)',
         'Responsive mobile-first layouts & clean semantics',
         'High-speed optimization & Core Web Vitals excellence',
         'Custom Tailwind CSS component architectures',

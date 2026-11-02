@@ -30,7 +30,7 @@ export const personalInfo = {
   },
   bio: `I'm a full-stack engineer and AI developer who loves turning difficult systems engineering challenges into fast, tactile, and reliable digital products. From building in-memory inverted search engines and Pinecone-backed RAG pipelines to fine-tuning multimodal vision systems and LangGraph agent architectures, I focus on what holds up under load.`,
   dayToDay: [
-    'Architecting production full-stack systems with React, TypeScript, Node.js, and MongoDB',
+    'Architecting production full-stack systems with React, REST API, Node.js, and MongoDB',
     'Developing multimodal AI pipelines using Gemini Vision, OpenAI API, and Pinecone vector search',
     'Orchestrating agent workflows with LangChain, LangGraph, MCP, and human-in-the-loop gates',
     'Enforcing strict OAuth 2.0, JWT token rotation, and defense-in-depth API security'
@@ -51,7 +51,7 @@ export const marqueeWords = [
   'Node.js',
   'Express',
   'MongoDB',
-  'TypeScript',
+  'REST API',
   'LangGraph',
   'Multi-Agent',
   'Gemini Vision',
@@ -60,8 +60,8 @@ export const marqueeWords = [
   'Docker',
   'MCP',
   'LangSmith',
-  'Langfuse',
-  'FastAPI',
+  'REST API',
+  'REST API',
   'Tailwind CSS'
 ]
 
@@ -114,7 +114,7 @@ export const projectsData: Project[] = [
       'Constructed on a clean MERN architecture (MongoDB, Express, React, Node.js) with strict zod schema validations, token authorization, and rate limiting to protect API throughput.',
       'Features a live client interface with instantaneous search indexing and automated brief downloads.'
     ],
-    tech: ['Gen AI', 'OpenAI API', 'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+    tech: ['Gen AI', 'OpenAI API', 'React', 'REST API', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
     repo: 'https://github.com/bunny/legal-genie',
     demo: 'https://legal-genie-six.vercel.app/',
     accent: 'saffron',
@@ -142,7 +142,7 @@ export const projectsData: Project[] = [
       'A Pinecone vector database RAG pipeline retrieves verified scientific agronomy documentation, grounding all recommendations in peer-reviewed agricultural science.',
       'Includes localized market price trends and demographic matching for qualifying government agricultural schemes.'
     ],
-    tech: ['Gen AI', 'Gemini Vision AI', 'Pinecone RAG', 'React', 'TypeScript', 'Node.js', 'Vector Search', 'Tailwind CSS'],
+    tech: ['Gen AI', 'Gemini Vision AI', 'Pinecone RAG', 'React', 'REST API', 'Node.js', 'Vector Search', 'Tailwind CSS'],
     repo: 'https://github.com/bunny/agrotech',
     demo: 'https://agrotech-git-main-bunnykati-2302s-projects.vercel.app/',
     accent: 'aqua',
@@ -170,7 +170,7 @@ export const projectsData: Project[] = [
       'Features an interactive AI shopping assistant chatbot that helps shoppers discover products, compare features, and receive personalized recommendations in real time.',
       'Provides full shopping cart management, authenticated admin workflows with multimodal AI product description generation from uploaded photos, and secure Google OAuth 2.0 authentication with JWT token rotation.'
     ],
-    tech: ['Gen AI', 'AI Chatbot', 'Semantic Search', 'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Google OAuth'],
+    tech: ['Gen AI', 'AI Chatbot', 'Semantic Search', 'React', 'REST API', 'Node.js', 'Express', 'MongoDB', 'Google OAuth'],
     repo: 'https://github.com/bunny/shopmate',
     demo: 'https://shopmate-ruby.vercel.app/',
     accent: 'saffron',
@@ -183,7 +183,7 @@ export const skillGroupsData: SkillGroup[] = [
   {
     id: 'mern',
     name: 'MERN Stack',
-    subtitle: 'Full-stack JavaScript/TypeScript engineering with resilient modular architectures.',
+    subtitle: 'Full-stack JavaScript/REST API engineering with resilient modular architectures.',
     color: 'saffron',
     glyph: '✦',
     skills: [
@@ -201,8 +201,8 @@ export const skillGroupsData: SkillGroup[] = [
         tags: ['Hooks', 'Context API', 'Concurrent Mode', 'Vite', 'State Machines']
       },
       {
-        id: 'typescript',
-        name: 'TypeScript',
+        id: 'rest-api-mern',
+        name: 'REST API',
         category: 'mern',
         categoryName: 'MERN Stack',
         proficiency: 'Production Expert',
@@ -640,8 +640,8 @@ export const skillGroupsData: SkillGroup[] = [
         tags: ['Trace Spans', 'Latency Profiling', 'Prompt Versioning', 'Regression Tests']
       },
       {
-        id: 'langfuse',
-        name: 'Langfuse LLM Telemetry',
+        id: 'rest-api-telemetry',
+        name: 'REST API LLM Telemetry',
         category: 'ai-eng',
         categoryName: 'AI Engineering',
         proficiency: 'Production Expert',

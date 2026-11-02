@@ -34,7 +34,7 @@ export const HeroSection: React.FC = () => {
     >
       {/* Interactive Cyber ID Card Showcase */}
       <div
-        className="pointer-events-auto absolute right-2 lg:right-4 xl:right-12 top-1/2 -translate-y-1/2 z-20 hidden lg:flex flex-col items-center justify-center"
+        className="pointer-events-auto relative lg:absolute right-auto lg:right-4 xl:right-12 top-auto lg:top-1/2 lg:-translate-y-1/2 z-20 flex flex-col items-center justify-center mx-auto lg:mx-0 mb-12 lg:mb-0 w-full max-w-[320px] sm:max-w-[340px] lg:w-auto lg:max-w-none"
       >
         {/* Subtle Ambient Radial Backlight */}
         <div className="absolute -inset-10 bg-gradient-to-tr from-[#ffb347]/20 via-[#38bdf8]/15 to-transparent blur-3xl opacity-75 pointer-events-none" />
@@ -54,7 +54,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* ID Card Holder */}
-        <div className="relative w-[340px] xl:w-[370px] rounded-3xl bg-gradient-to-b from-[#131728]/95 via-[#0b0e1b]/95 to-[#060812]/98 border border-white/20 p-5 xl:p-6 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(255,179,71,0.08)] backdrop-blur-2xl transition-all duration-500 hover:border-[#ffb347]/50 hover:shadow-[0_30px_70px_-10px_rgba(255,179,71,0.2)] hover:-translate-y-1 group">
+        <div className="relative w-full max-w-[320px] sm:max-w-[340px] lg:w-[340px] xl:w-[370px] rounded-3xl bg-gradient-to-b from-[#131728]/95 via-[#0b0e1b]/95 to-[#060812]/98 border border-white/20 p-5 xl:p-6 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(255,179,71,0.08)] backdrop-blur-2xl transition-all duration-500 hover:border-[#ffb347]/50 hover:shadow-[0_30px_70px_-10px_rgba(255,179,71,0.2)] hover:-translate-y-1 group">
           
           {/* Glossy Sheen Overlay */}
           <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-tr from-transparent via-white/[0.04] to-transparent opacity-70 group-hover:opacity-100 transition-opacity duration-700" />
